@@ -1,0 +1,145 @@
+@import "reset";
+@import "https://fonts.googleapis.com/css?family=Crimson+Text|Source+Sans+Pro";
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+
+$texto: "Source Sans Pro";
+$titulo: "Crimson Text";
+$color-texto:#3b4858;
+
+
+.topnav {
+
+	padding-bottom: 60px;
+
+	.titnav{
+
+		display:flex;
+		justify-content: space-between;
+		align-items: center;
+		color:$color-texto;
+		font-family:$texto;
+		margin:20px;
+
+		.ion-ios-search-strong {
+
+			font-size: 20px;
+			font-weight: bold;
+		}
+
+		img {
+
+			    width: 180px;
+    			height: auto;
+		}
+		.search input{
+			font-family:$texto;
+			width: 87px;
+			border: none;
+			font-size:20px;
+			text-transform: uppercase;
+
+		}
+
+		.ion-bag {
+			
+			font-size: 20px;
+
+		}
+	}
+
+	.countcarro div{
+		display: inline-block;
+		text-transform: uppercase;
+		font-family:$texto;
+	}
+
+	.cadcarro {
+
+		border: #a9a9a9 1px solid;
+		padding: 5px;
+	}
+
+	nav {
+		font-family:$texto;
+		margin: 20px;
+		display: block;
+		text-align: center;
+
+		.ion-chevron-down {
+
+			margin-left: 5px;
+    		font-size: 10px;
+		}
+
+
+
+		ul {
+
+			display: inline-block;
+			list-style: none;
+
+			li {
+
+				display:inline-block;
+				margin:20px;
+			}
+
+			a {
+				color:$color-texto;
+				text-decoration: none;
+
+			}
+		}
+
+
+	}
+
+}
+
+.titulo {
+
+	color: $color-texto;
+	font-family: $texto;
+
+}
+.listashop {
+
+ float:left;
+ color: $color-texto;
+ font-family: $texto;
+ margin-left:20px;
+
+
+}
+
+.contenedor {
+
+	max-width: 800px;
+	margin-right: 20px;
+
+}
+
+
+
+.carr img {
+
+	max-width: 800px;
+	height: auto;
+
+}
+
+.columna2 {
+
+	float:right;
+}
+
+.clear {
+
+
+    clear: both;
+
+}
+
+footer {
+	width: 100%;
+}
